@@ -1,0 +1,1 @@
+## agora acessa a url https://institutomovimentaeducacao.com.br , verifica o fluxo de navegação , utiliza como se fosse um QA senior com MCP , verifica os cenários que ainda não inclui pra teste e atualiza se não conter o cenário nas minhas features com linguagem gherkin

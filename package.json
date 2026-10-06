@@ -1,0 +1,20 @@
+{
+  "name": "automacao-instituto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automacao end-to-end do iPortal Instituto Movimenta com Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen $BASE_URL"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^26.6.1",
+    "dotenv": "^16.6.1",
+    "typescript": "^5.9.2"
+  }
+}
